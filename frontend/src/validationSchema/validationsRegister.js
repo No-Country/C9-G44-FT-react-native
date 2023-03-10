@@ -6,7 +6,6 @@ export const loginValidationShema = yup.object().shape({
         .required('Campo obligatorio'),
     email: yup
         .string()
-        .email('Este E-mail es inválido')
         .required('Campo obligatorio'),
     password: yup
         .string()

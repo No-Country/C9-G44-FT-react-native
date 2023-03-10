@@ -3,7 +3,7 @@ import { API_URI } from '@env'
 import { useUserStore } from '../store/userStore'
 
 
-const URL = API_URI
+const URL = 'http://10.0.2.2:8000/api'
 
 export const userRequest = {
 
